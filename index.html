@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link id="faviconLink" rel="shortcut icon" type="img/png" href="">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/tic_tac_toe.js"></script>
+</head>
+<body>
+	<header>
+		<h1 id="heading">Tic-Tac-Toe</h1>
+	</header>
+
+	<main id="main_container">
+		<aside>
+			<section class="info" id="current-player">
+				<div>Player: <span class="player">&nbsp;</span></div>
+			</section>
+
+		</aside>
+		<div id="board">
+			<div class="column">
+				<span id="cell-0-0" class="cell"></span>
+				<span id="cell-0-1" class="cell"></span>
+				<span id="cell-0-2" class="cell"></span>
+			</div>
+			<div class="column">
+				<span id="cell-1-0" class="cell"></span>
+				<span id="cell-1-1" class="cell"></span>
+				<span id="cell-1-2" class="cell"></span>
+			</div>
+			<div class="column">
+				<span id="cell-2-0" class="cell"></span>
+				<span id="cell-2-1" class="cell"></span>
+				<span id="cell-2-2" class="cell"></span>
+			</div>
+		</div>
+		<aside>
+			<section class="info" id="current-move">
+				<div>Move: <span class="move">&nbsp;</span></div>
+			</section>
+
+		</aside>
+	</main>
+	<footer>
+		<section id="control">
+			<button id="resetBtn">Reset</button>
+		</section>
+	</footer>
+</body>
+</html>

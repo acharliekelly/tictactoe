@@ -1,0 +1,113 @@
+
+body {
+	width: 99%;
+  background-image: url(https://i.imgur.com/uiqGtwT.png);
+}
+
+header {
+	width: 60%;
+	margin: 0 auto;
+	font-family: 'Finger Paint', cursive;
+	text-align: center;
+}
+h1 {
+  font-size: 5em;
+}
+
+
+
+#current-player.x-turn .player {
+	color: #f00;
+}
+#current-player.o-turn .player {
+	color: #00f;
+}
+
+
+.x-turn .cell:empty:hover {
+  background-color: #f00;
+}
+
+.o-turn .cell:empty:hover {
+	background-color: #00f;
+}
+
+.display-color .X {
+	background-color: #f00;
+}
+.display-color .O {
+	background-color: #00f;
+}
+
+
+#heading {
+  border-radius: 5px;
+  padding: .5em;
+}
+
+#heading.none {
+	background-color: #000;
+	color: #fff;
+}
+#heading.x-win {
+	background-color: #f00;
+	color: #000;
+}
+#heading.o-win {
+	background-color: #00f;
+	color: #fff;
+}
+
+.control {
+	/* background-color: #aaa;
+	border-radius: 5px; */
+	padding: 2vh 4vw;
+	margin: 5vw auto;
+	text-align: center;
+	width: 20%;
+}
+
+
+
+
+main {
+	display: flex;
+	justify-content: space-around;
+}
+
+aside {
+	font-size: 50px;
+
+	text-align: left;
+	font-family: 'Finger Paint', cursive;
+}
+
+#board {
+	display         : flex;
+  justify-content : center;
+
+
+	padding: 3px;
+}
+
+.column {
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-between;
+}
+
+.cell {
+  display : block;
+  width   : 148px;
+  height  : 148px;
+  border  : 1px solid #000;
+
+  text-align  : center;
+
+}
+
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+}
