@@ -17,8 +17,8 @@ const getImageStr = (player) => {
 }
 
 
-const playerX = new Player('x', '#f00', 'https://i.imgur.com/HWSmhUG.png');
-const playerO = new Player('o', '#00f', 'https://i.imgur.com/IyPq5IU.png');
+const playerX = new Player('x', '#f00', 'img/x.png');
+const playerO = new Player('o', '#00f', 'img/o.png');
 
 const PLAYERS = [
   playerX, playerO
